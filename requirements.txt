@@ -1,0 +1,42 @@
+# Core Web Framework & API
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+python-multipart>=0.0.9
+pydantic>=2.6.0
+pydantic-settings>=2.2.0
+
+# Database & ORM (PostgreSQL & Migrations)
+sqlalchemy>=2.0.28
+alembic>=1.13.1
+psycopg2-binary>=2.9.9
+asyncpg>=0.29.0
+
+# Session Cache & Memory (Redis)
+redis>=5.0.3
+
+# Security, Hashing & JWT Authentication
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+bcrypt>=4.1.2
+python-dotenv>=1.0.1
+
+# RAG Orchestration & Document Processing
+langchain>=0.1.12
+langchain-core>=0.1.32
+langchain-community>=0.0.28
+langchain-text-splitters>=0.0.1
+pypdf>=4.1.0
+
+# Multi-LLM SDK Adapters
+openai>=1.14.1
+langchain-openai>=0.0.8
+google-generativeai>=0.4.1
+langchain-google-genai>=0.0.10
+anthropic>=0.19.1
+langchain-anthropic>=0.1.6
+
+# Vector Store
+chromadb>=0.4.24
+
+# Async HTTP Client & Helpers
+httpx>=0.27.0

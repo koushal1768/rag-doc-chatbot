@@ -1,0 +1,9 @@
+{
+  "name": "rag-fastapi-app",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "dev:api": "uvicorn app.main:app --reload --host 127.0.0.1 --port 8000",
+    "build": "npm --prefix frontend run build"
+  }
+}

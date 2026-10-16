@@ -1,2 +1,9 @@
 myenv
 .env
+frontend/node_modules
+frontend/dist
+__pycache__/
+*.pyc
+vector_db_data/
+storage/
+frontend
